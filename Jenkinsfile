@@ -2,7 +2,7 @@ pipeline {
 
     agent any
     tools {
-        maven 'Maven_3.5.0' 
+        maven 'Maven_3_5_0' 
     }
     stages {
         stage('Compile stage') {
